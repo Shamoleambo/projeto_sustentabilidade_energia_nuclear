@@ -49,16 +49,18 @@
             border-color: blue;
         }
 
-        main {
-            margin: 2em;
+        .section-content {
+            margin: 2em auto;
+            width: 60%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
         }
 
         #hero {
-            margin: auto;
-            width: 60%;
-            border: 1px solid black;
-            display: flex;
-            flex-direction: column;
+            width: 80%;
+            border: 1px solid #000;
         }
 
         #hero h1 {
@@ -71,6 +73,37 @@
 
         .main-content img {
             width: 500px;
+        }
+
+        .secoes-intro .intro-subject-cta {
+            margin: 1em auto;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+        }
+
+        .intro-subject-cta .content {
+            display: flex;
+        }
+
+        .content-intro {
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+        }
+
+        .content-intro h4 {
+            text-align: center;
+        }
+
+        .content-intro button {
+            margin: auto;
+        }
+
+        .content .image-container img {
+            width: 200px;
         }
     </style>
     <title>Home</title>
@@ -93,7 +126,7 @@
     </header>
 
     <main>
-        <section id="hero" class="hero">
+        <section id="hero" class="section-content hero">
             <h1>Energia Nuclear e Sustentabilidade</h1>
             <div class="main-content">
                 <div class="image-container">
@@ -121,13 +154,84 @@
                 </article>
             </div>
         </section>
-        <section class="subjects-cta">
-            <article class="intro-subject-cta"></article>
-            <article class="intro-subject-cta"></article>
-            <article class="intro-subject-cta"></article>
+        <section class="section-content secoes-intro">
+            <article class="intro-subject-cta">
+                <h3>Benefícios da Energia Nuclear</h3>
+                <div class="content">
+                    <div class="image-container">
+                        <!--Não esquecer de trocar o alt uma vez que a imagem estiver estabelecida-->
+                        <img src="../img/template_imagens_projeto.png" alt="imagem temporaria">
+                    </div>
+                    <div class="content-intro">
+                        <h4>Quais são os benefícios da energia nuclear?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam blanditiis numquam
+                            quam
+                            quas? Nostrum sunt, non at distinctio quisquam corrupti odio enim, officia quas nulla facere
+                            cum
+                            iste amet laboriosam itaque in illo voluptas nihil architecto. Laborum perspiciatis
+                            voluptatum
+                            doloribus, quo tenetur deserunt repudiandae deleniti odit exercitationem consectetur ad
+                            aliquam
+                            placeat consequuntur cum iure fugiat excepturi accusamus earum culpa quos dolore
+                            voluptatibus
+                            eius ullam maiores! Mollitia officia molestiae, quaerat recusandae explicabo ut aspernatur
+                            dolorem alias repellendus maiores dolor est.</p>
+                        <button><a href="./beneficios_energ_nuclear.html">Ver mais</a></button>
+                    </div>
+                </div>
+            </article>
+            <article class="intro-subject-cta">
+                <h3>Mitos e Verdades</h3>
+                <div class="content">
+                    <div class="image-container">
+                        <!--Não esquecer de trocar o alt uma vez que a imagem estiver estabelecida-->
+                        <img src="../img/template_imagens_projeto.png" alt="imagem temporaria">
+                    </div>
+                    <div class="content-intro">
+                        <h4>Desmistificando a Energia Nuclear</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam blanditiis numquam
+                            quam
+                            quas? Nostrum sunt, non at distinctio quisquam corrupti odio enim, officia quas nulla facere
+                            cum
+                            iste amet laboriosam itaque in illo voluptas nihil architecto. Laborum perspiciatis
+                            voluptatum
+                            doloribus, quo tenetur deserunt repudiandae deleniti odit exercitationem consectetur ad
+                            aliquam
+                            placeat consequuntur cum iure fugiat excepturi accusamus earum culpa quos dolore
+                            voluptatibus
+                            eius ullam maiores! Mollitia officia molestiae, quaerat recusandae explicabo ut aspernatur
+                            dolorem alias repellendus maiores dolor est.</p>
+                        <button><a href="./mitos_verdades.html">Ver mais</a></button>
+                    </div>
+                </div>
+            </article>
+            <article class="intro-subject-cta">
+                <h3>Saiba Mais</h3>
+                <div class="content">
+                    <div class="image-container">
+                        <!--Não esquecer de trocar o alt uma vez que a imagem estiver estabelecida-->
+                        <img src="../img/template_imagens_projeto.png" alt="imagem temporaria">
+                    </div>
+                    <div class="content-intro">
+                        <h4>Quer saber mais?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem aliquam blanditiis numquam
+                            quam
+                            quas? Nostrum sunt, non at distinctio quisquam corrupti odio enim, officia quas nulla facere
+                            cum
+                            iste amet laboriosam itaque in illo voluptas nihil architecto. Laborum perspiciatis
+                            voluptatum
+                            doloribus, quo tenetur deserunt repudiandae deleniti odit exercitationem consectetur ad
+                            aliquam
+                            placeat consequuntur cum iure fugiat excepturi accusamus earum culpa quos dolore
+                            voluptatibus
+                            eius ullam maiores! Mollitia officia molestiae, quaerat recusandae explicabo ut aspernatur
+                            dolorem alias repellendus maiores dolor est.</p>
+                        <button><a href="./saiba_mais.html">Ver mais</a></button>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
-
 </body>
 
 </html>
