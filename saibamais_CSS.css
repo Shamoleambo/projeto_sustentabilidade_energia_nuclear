@@ -1,0 +1,52 @@
+div{
+
+}
+
+body {
+    background-color: white;
+}
+
+
+.navegacao{
+    width: 1265px;
+    height: 90px;
+    background-color: rgb(47, 47, 47);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+
+}
+
+
+.Quadrado1{
+
+    width: 800px;
+    height: 120px;
+    background-color: gray;
+    position: absolute;
+    left: 250px;
+    top: 170px;
+}
+
+.Quadrado2{
+
+    width: 800px;
+    height: 120px;
+    background-color: gray;
+    position: absolute;
+    left: 250px;
+    top: 330px;
+}
+
+.Quadrado3 {
+
+    width: 800px;
+    height: 120px;
+    background-color: gray;
+    position: absolute;
+    left: 250px;
+    top: 490px;
+
+}
