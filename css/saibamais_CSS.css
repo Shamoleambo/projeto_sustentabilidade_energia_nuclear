@@ -1,52 +1,79 @@
-div{
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: white;
+header {
+  background-color: grey;
+  height: 128px;
+  border: 1px solid blacl;
+  display: flex;
+  align-items: center;
 }
 
-
-.navegacao{
-    width: 1265px;
-    height: 90px;
-    background-color: rgb(47, 47, 47);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
-
-
+header .logo-container img {
+  margin: 3em;
+  width: 60px;
 }
 
-
-.Quadrado1{
-
-    width: 800px;
-    height: 120px;
-    background-color: gray;
-    position: absolute;
-    left: 250px;
-    top: 170px;
+nav {
+  width: 100%;
 }
 
-.Quadrado2{
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
 
-    width: 800px;
-    height: 120px;
-    background-color: gray;
-    position: absolute;
-    left: 250px;
-    top: 330px;
+nav ul li {
+  padding: 0.4em;
+  border: 1px solid red;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li.current-page {
+  background-color: white;
+  border-color: blue;
+}
+
+.navegacao {
+  width: 1265px;
+  height: 90px;
+  background-color: rgb(47, 47, 47);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.Quadrado1 {
+  width: 800px;
+  height: 120px;
+  background-color: gray;
+  position: absolute;
+  left: 250px;
+  top: 170px;
+}
+
+.Quadrado2 {
+  width: 800px;
+  height: 120px;
+  background-color: gray;
+  position: absolute;
+  left: 250px;
+  top: 330px;
 }
 
 .Quadrado3 {
-
-    width: 800px;
-    height: 120px;
-    background-color: gray;
-    position: absolute;
-    left: 250px;
-    top: 490px;
-
+  width: 800px;
+  height: 120px;
+  background-color: gray;
+  position: absolute;
+  left: 250px;
+  top: 490px;
 }

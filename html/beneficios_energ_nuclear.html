@@ -5,6 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: grey;
+            height: 128px;
+            border: 1px solid blacl;
+            display: flex;
+            align-items: center;
+        }
+
+        header .logo-container img {
+            margin: 3em;
+            width: 60px;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            padding: .4em;
+            border: 1px solid red;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        li.current-page {
+            background-color: white;
+            border-color: blue;
+        }
+
+        main {
+            margin: 2em;
+        }
+
         .beneficios {
             margin: auto;
             width: 938px;
@@ -25,6 +73,22 @@
 </head>
 
 <body>
+    <header>
+        <div class="logo-container">
+            <!--Não esquecer de trocar o alt uma vez que a imagem estiver estabelecida-->
+            <a href="./index.html"><img src="../img/template_imagens_projeto.png" alt="imagem temporária"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="current-page"><a href="./beneficios_energ_nuclear.html">Benefícios da Energia Nuclear</a>
+                </li>
+                <li><a href="./index.html">Mitos e Verdades</a></li>
+                <li><a href="./saiba_mais.html">Saiba Mais</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <section class="beneficios">
             <h1>Benefícios da Energia Nuclear</h1>
