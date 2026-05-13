@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+/* Definições de variáveis */
+
+:root {
+  --primary-color: #6e9b24;
+  --secondary-color: #fbfbfb;
+  --tertiary-color: #002752;
+  background-color: var(--secondary-color);
+}
+
+/*Estilos do Header*/
+
 header {
-  background-color: grey;
+  background-color: var(--tertiary-color);
   height: 128px;
-  border: 1px solid blacl;
   display: flex;
   align-items: center;
 }
@@ -29,29 +39,38 @@ nav ul {
 
 nav ul li {
   padding: 0.4em;
-  border: 1px solid red;
 }
 
 li a {
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
-li.current-page {
-  background-color: white;
-  border-color: blue;
+li a:hover {
+  color: var(--primary-color);
 }
 
-.navegacao {
-  width: 1265px;
-  height: 90px;
-  background-color: rgb(47, 47, 47);
-  position: absolute;
-  top: 0px;
-  left: 0px;
+li a:active {
+  color: rgb(250, 124, 124);
+}
+
+li.current-page {
+  border: 1px solid var(--primary-color);
 }
 
 /*Estilos da section e dos artigos*/
+
+main {
+  background-color: var(--primary-color);
+}
+
+.title-container {
+  padding: 3em;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
 
 h1,
 h2 {
@@ -59,15 +78,21 @@ h2 {
 }
 
 section.saiba-mais {
+  padding: 0.5em;
   width: 1300px;
   margin: auto;
 }
 
 section.saiba-mais .referencia {
+  background-color: var(--secondary-color);
+  box-shadow: 1em 0.3em 1em rgba(0, 0, 0, 0.5);
   height: 154px;
-  margin: 2em auto;
+  margin: 2em auto 0 auto;
   padding: 1em;
-  border: 1px solid black;
+}
+
+article:last-child {
+  margin: 2em auto 0 auto;
 }
 
 article.referencia button {
@@ -79,7 +104,8 @@ article.referencia button {
 
 footer {
   height: 164px;
-  background-color: grey;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
   padding: 1em;
   display: flex;
   justify-content: space-between;
