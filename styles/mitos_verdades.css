@@ -68,7 +68,7 @@ li.current-page {
 }
 
 #hero {
-  width: 80%;
+  width: 60%;
   background-color: var(--primary-color);
   box-shadow: 1em 0.3em 1em rgba(0, 0, 0, 0.5);
 }
@@ -83,12 +83,17 @@ li.current-page {
   flex-direction: column;
 }
 
+#p-inicial {
+  padding: 1em;
+}
+
 .main-content img {
   width: 500px;
 }
 
 .mito {
   margin: 2em auto;
+  padding: 1em;
 }
 
 .mito h2 {
