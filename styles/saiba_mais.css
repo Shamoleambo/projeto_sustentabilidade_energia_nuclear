@@ -77,3 +77,21 @@ li.current-page {
   left: 250px;
   top: 490px;
 }
+
+/*Estilos Footer*/
+
+footer {
+  height: 164px;
+  background-color: grey;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-element {
+  margin: 0 4em;
+}
+
+footer .authors-container ul {
+  list-style: none;
+}
