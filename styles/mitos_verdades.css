@@ -1,0 +1,89 @@
+/*Reset do body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Estilos do Header e Navbar*/
+header {
+  background-color: grey;
+  height: 128px;
+  border: 1px solid blacl;
+  display: flex;
+  align-items: center;
+}
+
+header .logo-container img {
+  margin: 3em;
+  width: 60px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding: 0.4em;
+  border: 1px solid red;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li.current-page {
+  background-color: white;
+  border-color: blue;
+}
+
+/*Estilos da página inde.html*/
+.section-content {
+  margin: 2em auto;
+  width: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+#hero {
+  width: 80%;
+  border: 1px solid #000;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#hero .main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content img {
+  width: 500px;
+}
+
+.mito {
+  margin: 2em auto;
+}
+
+.mito h2 {
+  text-align: center;
+}
+
+.mito .image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 12em;
+}
