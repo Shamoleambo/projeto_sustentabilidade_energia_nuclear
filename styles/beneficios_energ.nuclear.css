@@ -65,16 +65,17 @@ main {
 }
 
 .beneficios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--primary-color);
   margin: auto;
   width: 938px;
   box-shadow: 1em 0.3em 1em rgba(0, 0, 0, 0.5);
 }
 
-.beneficios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.beneficios p {
+  margin: 1em 2em;
 }
 
 .beneficios h1 {
