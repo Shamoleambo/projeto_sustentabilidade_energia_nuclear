@@ -51,31 +51,28 @@ li.current-page {
   left: 0px;
 }
 
-.Quadrado1 {
-  width: 800px;
-  height: 120px;
-  background-color: gray;
-  position: absolute;
-  left: 250px;
-  top: 170px;
+/*Estilos da section e dos artigos*/
+
+h1,
+h2 {
+  text-align: center;
 }
 
-.Quadrado2 {
-  width: 800px;
-  height: 120px;
-  background-color: gray;
-  position: absolute;
-  left: 250px;
-  top: 330px;
+section.saiba-mais {
+  width: 1300px;
+  margin: auto;
 }
 
-.Quadrado3 {
-  width: 800px;
-  height: 120px;
-  background-color: gray;
-  position: absolute;
-  left: 250px;
-  top: 490px;
+section.saiba-mais .referencia {
+  height: 154px;
+  margin: 2em auto;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+article.referencia button {
+  display: block;
+  margin: 0.5em auto;
 }
 
 /*Estilos Footer*/
