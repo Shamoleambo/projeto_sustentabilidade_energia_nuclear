@@ -60,21 +60,39 @@ li.current-page {
 
 /*Estilos da section e dos artigos*/
 
+main {
+  background-color: var(--primary-color);
+}
+
+.title-container {
+  padding: 3em;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
 h1,
 h2 {
   text-align: center;
 }
 
 section.saiba-mais {
+  padding: 0.5em;
   width: 1300px;
   margin: auto;
 }
 
 section.saiba-mais .referencia {
+  background-color: var(--secondary-color);
+  box-shadow: 1em 0.3em 1em rgba(0, 0, 0, 0.5);
   height: 154px;
-  margin: 2em auto;
+  margin: 2em auto 0 auto;
   padding: 1em;
-  border: 1px solid black;
+}
+
+article:last-child {
+  margin: 2em auto 0 auto;
 }
 
 article.referencia button {
