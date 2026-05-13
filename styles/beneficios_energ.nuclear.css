@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+/* Definições de variáveis */
+
+:root {
+  --primary-color: #6e9b24;
+  --secondary-color: #fbfbfb;
+  --tertiary-color: #002752;
+  background-color: var(--secondary-color);
+}
+
+/*Estilos da página*/
+
 header {
-  background-color: grey;
+  background-color: var(--tertiary-color);
   height: 128px;
-  border: 1px solid blacl;
   display: flex;
   align-items: center;
 }
@@ -29,18 +39,26 @@ nav ul {
 
 nav ul li {
   padding: 0.4em;
-  border: 1px solid red;
 }
 
 li a {
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
-li.current-page {
-  background-color: white;
-  border-color: blue;
+li a:hover {
+  color: var(--primary-color);
 }
+
+li a:active {
+  color: rgb(250, 124, 124);
+}
+
+li.current-page {
+  border: 1px solid var(--primary-color);
+}
+
+/*Estilos da página*/
 
 main {
   margin: 2em;
@@ -66,7 +84,8 @@ main {
 
 footer {
   height: 164px;
-  background-color: grey;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
   padding: 1em;
   display: flex;
   justify-content: space-between;

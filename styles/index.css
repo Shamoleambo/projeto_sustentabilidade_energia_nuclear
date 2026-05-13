@@ -18,7 +18,6 @@
 header {
   background-color: var(--tertiary-color);
   height: 128px;
-  border: 1px solid blacl;
   display: flex;
   align-items: center;
 }
