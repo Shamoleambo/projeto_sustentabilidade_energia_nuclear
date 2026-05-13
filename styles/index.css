@@ -80,10 +80,23 @@ li.current-page {
 
 #hero .main-content {
   display: flex;
+  align-items: center;
 }
 
 .main-content img {
-  width: 500px;
+  width: 480px;
+  padding: 1em;
+}
+
+.about-the-project {
+  padding: 1em;
+}
+.about-the-project p {
+  margin: 1em auto;
+}
+
+.about-the-project ul {
+  padding: 0 3em;
 }
 
 .secoes-intro .intro-subject-cta {
