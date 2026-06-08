@@ -104,3 +104,14 @@ footer .footer-element {
 footer .authors-container ul {
   list-style: none;
 }
+
+@media (max-width: 1200px) {
+  section.beneficios {
+    width: 70%;
+  }
+  #hero .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
