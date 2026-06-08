@@ -80,6 +80,7 @@ main {
 
 .beneficios h1 {
   color: var(--secondary-color);
+  text-align: center;
 }
 
 .beneficios .image-container img {
