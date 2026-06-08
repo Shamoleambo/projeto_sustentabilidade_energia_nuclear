@@ -128,3 +128,15 @@ footer .footer-element {
 footer .authors-container ul {
   list-style: none;
 }
+
+@media (max-width: 1400px) {
+  section.saiba-mais {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .referencia {
+    text-align: center;
+  }
+}
