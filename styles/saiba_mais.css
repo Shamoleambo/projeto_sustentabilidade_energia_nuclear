@@ -86,7 +86,6 @@ section.saiba-mais {
 section.saiba-mais .referencia {
   background-color: var(--secondary-color);
   box-shadow: 1em 0.3em 1em rgba(0, 0, 0, 0.5);
-  height: 154px;
   margin: 2em auto 0 auto;
   padding: 1em;
 }
@@ -97,7 +96,18 @@ article:last-child {
 
 article.referencia button {
   display: block;
-  margin: 0.5em auto;
+}
+
+.btn-ver-mais {
+  margin: 1em auto;
+  padding: 1em;
+  width: 30%;
+  cursor: pointer;
+}
+
+.btn-ver-mais a {
+  text-decoration: none;
+  color: black;
 }
 
 /*Estilos Footer*/
