@@ -136,14 +136,20 @@ li.current-page {
   width: 200px;
 }
 
+.redirect-link {
+  width: 100%;
+  margin: auto;
+  display: inline-block !important;
+}
+
 .btn-ver-mais {
-  margin: 1em auto;
+  margin: 1em auto !important;
   padding: 1em;
-  width: 30%;
+  width: 100% !important;
   cursor: pointer;
 }
 
-.btn-ver-mais a {
+a {
   text-decoration: none;
   color: black;
 }
